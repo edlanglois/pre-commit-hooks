@@ -1,6 +1,6 @@
 -   id: shellcheck
     name: Shellcheck
     description: Lint a shell script with shellcheck
-    entry: shellcheck --norc
+    entry: shellcheck --norc --exclude=SC1091
     language: system
     types: [shell]
